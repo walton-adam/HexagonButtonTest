@@ -22,13 +22,13 @@ class CustomBtn: UIButton {
     override func draw(_ rect: CGRect) {
         path = UIBezierPath()
         
-        path.move(to: (CGPoint(x: 150+50, y: 13+50)))
-        path.addLine(to: CGPoint(x: 150+50, y: 13+50))
-        path.addLine(to: (CGPoint(x: 50+50, y: 13+50)))
-        path.addLine(to: (CGPoint(x: 0+50, y: 100+50)))
-        path.addLine(to: (CGPoint(x: 50+50, y: 187+50)))
-        path.addLine(to: (CGPoint(x: 150+50, y: 187+50)))
-        path.addLine(to: (CGPoint(x: 200+50, y: 100+50)))
+        path.move(to: (CGPoint(x: 150, y: 13)))
+        path.addLine(to: CGPoint(x: 150, y: 13))
+        path.addLine(to: (CGPoint(x: 50, y: 13)))
+        path.addLine(to: (CGPoint(x: 0, y: 100)))
+        path.addLine(to: (CGPoint(x: 50, y: 187)))
+        path.addLine(to: (CGPoint(x: 150, y: 187)))
+        path.addLine(to: (CGPoint(x: 200, y: 100)))
         path.close()
         
         let shapeLayer = CAShapeLayer()

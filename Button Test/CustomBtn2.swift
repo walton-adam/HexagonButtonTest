@@ -7,16 +7,9 @@
 //
 
 import UIKit
-
+@IBDesignable
 class CustomBtn2: UIButton {
 
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
-    }
-    */
     @IBInspectable var fillcolor: UIColor = UIColor.magenta
     @IBInspectable var cornerRadius:CGFloat = 0
     var path: UIBezierPath!
@@ -28,13 +21,14 @@ class CustomBtn2: UIButton {
     override func draw(_ rect: CGRect) {
         path = UIBezierPath()
         
-        path.move(to: (CGPoint(x: 150+50, y: 13+300)))
-        path.addLine(to: CGPoint(x: 150+50, y: 13+300))
-        path.addLine(to: (CGPoint(x: 50+50, y: 13+300)))
-        path.addLine(to: (CGPoint(x: 0+50, y: 100+300)))
-        path.addLine(to: (CGPoint(x: 50+50, y: 187+300)))
-        path.addLine(to: (CGPoint(x: 150+50, y: 187+300)))
-        path.addLine(to: (CGPoint(x: 200+50, y: 100+300)))
+        
+        path.move(to: (CGPoint(x: 150, y: 13)))
+        path.addLine(to: CGPoint(x: 150, y: 13))
+        path.addLine(to: (CGPoint(x: 50, y: 13)))
+        path.addLine(to: (CGPoint(x: 0, y: 100)))
+        path.addLine(to: (CGPoint(x: 50, y: 187)))
+        path.addLine(to: (CGPoint(x: 150, y: 187)))
+        path.addLine(to: (CGPoint(x: 200, y: 100)))
         path.close()
         
         let shapeLayer = CAShapeLayer()

@@ -83,7 +83,6 @@
 		0AB055421F7EBAAB002E8CF9 = {
 			isa = PBXGroup;
 			children = (
-				0A89C7AF1F8444B3005A32BB /* CustomBtn2.swift */,
 				0AB0554D1F7EBAAB002E8CF9 /* Button Test */,
 				0AB055641F7EBAAB002E8CF9 /* Button TestTests */,
 				0AB0556F1F7EBAAB002E8CF9 /* Button TestUITests */,
@@ -111,6 +110,7 @@
 				0AB055571F7EBAAB002E8CF9 /* Assets.xcassets */,
 				0AB055591F7EBAAB002E8CF9 /* LaunchScreen.storyboard */,
 				0AB0555C1F7EBAAB002E8CF9 /* Info.plist */,
+				0A89C7AF1F8444B3005A32BB /* CustomBtn2.swift */,
 				0AB0557E1F7ECC66002E8CF9 /* CustomBtn.swift */,
 			);
 			path = "Button Test";
