@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A89C7B01F8444B3005A32BB /* CustomBtn2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A89C7AF1F8444B3005A32BB /* CustomBtn2.swift */; };
 		0AB0554F1F7EBAAB002E8CF9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB0554E1F7EBAAB002E8CF9 /* AppDelegate.swift */; };
 		0AB055511F7EBAAB002E8CF9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB055501F7EBAAB002E8CF9 /* FirstViewController.swift */; };
 		0AB055531F7EBAAB002E8CF9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AB055521F7EBAAB002E8CF9 /* SecondViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A89C7AF1F8444B3005A32BB /* CustomBtn2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBtn2.swift; sourceTree = "<group>"; };
 		0AB0554B1F7EBAAB002E8CF9 /* Button Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Button Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AB0554E1F7EBAAB002E8CF9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AB055501F7EBAAB002E8CF9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 		0AB055421F7EBAAB002E8CF9 = {
 			isa = PBXGroup;
 			children = (
+				0A89C7AF1F8444B3005A32BB /* CustomBtn2.swift */,
 				0AB0554D1F7EBAAB002E8CF9 /* Button Test */,
 				0AB055641F7EBAAB002E8CF9 /* Button TestTests */,
 				0AB0556F1F7EBAAB002E8CF9 /* Button TestUITests */,
@@ -267,6 +270,7 @@
 			files = (
 				0AB055531F7EBAAB002E8CF9 /* SecondViewController.swift in Sources */,
 				0AB0557F1F7ECC66002E8CF9 /* CustomBtn.swift in Sources */,
+				0A89C7B01F8444B3005A32BB /* CustomBtn2.swift in Sources */,
 				0AB0554F1F7EBAAB002E8CF9 /* AppDelegate.swift in Sources */,
 				0AB055511F7EBAAB002E8CF9 /* FirstViewController.swift in Sources */,
 			);

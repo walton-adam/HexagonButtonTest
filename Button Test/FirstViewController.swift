@@ -28,5 +28,10 @@ class FirstViewController: UIViewController {
         sender.setNeedsDisplay()
         debugPrint("Customly Clicked")
     }
+    @IBAction func Btn2Clikc(_ sender: Any) {
+       
+        debugPrint("Customly Clicked The Other")
+    }
+    
 }
 

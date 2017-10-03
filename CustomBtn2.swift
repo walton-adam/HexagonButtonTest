@@ -1,16 +1,22 @@
 //
-//  CustomBtn.swift
+//  CustomBtn2.swift
 //  Button Test
 //
-//  Created by Adam David Walton on 9/29/17.
+//  Created by Adam David Walton on 10/3/17.
 //  Copyright © 2017 Adam David Walton. All rights reserved.
 //
 
 import UIKit
-@IBDesignable
-class CustomBtn: UIButton {
 
+class CustomBtn2: UIButton {
 
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
     @IBInspectable var fillcolor: UIColor = UIColor.magenta
     @IBInspectable var cornerRadius:CGFloat = 0
     var path: UIBezierPath!
@@ -22,13 +28,13 @@ class CustomBtn: UIButton {
     override func draw(_ rect: CGRect) {
         path = UIBezierPath()
         
-        path.move(to: (CGPoint(x: 150+50, y: 13+50)))
-        path.addLine(to: CGPoint(x: 150+50, y: 13+50))
-        path.addLine(to: (CGPoint(x: 50+50, y: 13+50)))
-        path.addLine(to: (CGPoint(x: 0+50, y: 100+50)))
-        path.addLine(to: (CGPoint(x: 50+50, y: 187+50)))
-        path.addLine(to: (CGPoint(x: 150+50, y: 187+50)))
-        path.addLine(to: (CGPoint(x: 200+50, y: 100+50)))
+        path.move(to: (CGPoint(x: 150+50, y: 13+300)))
+        path.addLine(to: CGPoint(x: 150+50, y: 13+300))
+        path.addLine(to: (CGPoint(x: 50+50, y: 13+300)))
+        path.addLine(to: (CGPoint(x: 0+50, y: 100+300)))
+        path.addLine(to: (CGPoint(x: 50+50, y: 187+300)))
+        path.addLine(to: (CGPoint(x: 150+50, y: 187+300)))
+        path.addLine(to: (CGPoint(x: 200+50, y: 100+300)))
         path.close()
         
         let shapeLayer = CAShapeLayer()
@@ -50,6 +56,4 @@ class CustomBtn: UIButton {
             }
         }
     }
-    
-    
 }
