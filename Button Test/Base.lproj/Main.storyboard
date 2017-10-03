@@ -42,7 +42,11 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDa-iE-7wI" customClass="CustomBtn2" customModule="Button_Test" customModuleProvider="target">
-                                <rect key="frame" x="264" y="418" width="46" height="30"/>
+                                <rect key="frame" x="187.5" y="433.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="6PC-PN-lGL"/>
+                                    <constraint firstAttribute="width" constant="200" id="BHR-Kj-ebb"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="Btn2Click:" destination="9pv-A4-QxB" eventType="touchUpInside" id="H8y-aH-bsV"/>
@@ -52,11 +56,13 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
+                            <constraint firstItem="vDa-iE-7wI" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="200" id="Oph-qt-DC8"/>
                             <constraint firstItem="IP3-zg-3kF" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="UfR-z3-kbb"/>
                             <constraint firstItem="vDa-iE-7wI" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" constant="100" id="Uvg-D0-Mma"/>
                             <constraint firstItem="IP3-zg-3kF" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" id="YvF-4h-uOG"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
+                            <constraint firstItem="vDa-iE-7wI" firstAttribute="centerY" secondItem="tsR-hK-woN" secondAttribute="centerY" constant="200" id="ebz-ci-yAt"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
                             <constraint firstItem="vDa-iE-7wI" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="100" id="raw-Q4-1t0"/>
                         </constraints>
